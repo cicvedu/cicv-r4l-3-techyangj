@@ -156,6 +156,13 @@ config SAMPLE_RUST_HOSTPROGS
 
 	  If unsure, say N.
 
+config SAMPLE_RUST_HELLOWORLD
+	tristate "Print Helloworld in Rust"
+	help
+	  This option builds the Rust Helloworld module sample.
+
+	  If unsure, say N.
+
 config SAMPLE_RUST_SELFTESTS
 	tristate "Self tests"
 	help
